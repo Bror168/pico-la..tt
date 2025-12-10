@@ -13,11 +13,6 @@ num_ett, num_tva, mistake_chance = map(int, input(
     "Ange två nummer (num_ett num_tva) och odds för felstavning (1/n): ").split())
 
 
-
-num_ett = 200
-num_tva = 300
-mistake_chance = 13
-
 try:
     with open("convertion_file.txt", "r", encoding="utf-8") as infile:
         text = infile.read()
